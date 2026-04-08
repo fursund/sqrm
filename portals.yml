@@ -1,0 +1,170 @@
+# career-ops Portal Configuration
+# Customized for Jens Fursund -- CG x AI leadership roles
+# Copenhagen / EU / Remote focus
+
+# Title filters applied across all portals
+title_filter:
+  positive:
+    - "CTO"
+    - "Chief Technology"
+    - "VP Engineering"
+    - "VP of Engineering"
+    - "Director of Engineering"
+    - "Head of Engineering"
+    - "Head of AI"
+    - "Head of ML"
+    - "Principal Engineer"
+    - "Staff Engineer"
+    - "Graphics Engineer"
+    - "Rendering Engineer"
+    - "3D Engineer"
+    - "Computer Vision"
+    - "AI Engineer"
+    - "ML Engineer"
+    - "XR Engineer"
+    - "AR/VR"
+    - "Technical Lead"
+    - "Engineering Manager"
+    - "Platform Lead"
+  negative:
+    - "Intern"
+    - "Junior"
+    - "Associate"
+    - "Entry Level"
+    - "Sales"
+    - "Marketing"
+    - "HR"
+    - "Recruiter"
+
+portals:
+
+  # --- GAME ENGINES & GRAPHICS ---
+  - name: Unity
+    url: "https://careers.unity.com/find-a-position"
+    type: greenhouse
+    keywords: ["graphics", "rendering", "AI", "engineering"]
+
+  - name: Epic Games
+    url: "https://www.epicgames.com/site/careers"
+    type: custom
+    keywords: ["graphics", "rendering", "Unreal"]
+
+  - name: NVIDIA
+    url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite"
+    type: workday
+    keywords: ["graphics", "raytracing", "AI"]
+
+  # --- AI COMPANIES ---
+  - name: Anthropic
+    url: "https://boards.greenhouse.io/anthropic"
+    type: greenhouse
+    keywords: ["engineering", "AI", "infrastructure"]
+
+  - name: OpenAI
+    url: "https://openai.com/careers"
+    type: custom
+    keywords: ["engineering", "AI", "infrastructure"]
+
+  - name: Mistral
+    url: "https://jobs.lever.co/mistral"
+    type: lever
+    keywords: ["engineering", "AI"]
+
+  - name: Cohere
+    url: "https://boards.greenhouse.io/cohere"
+    type: greenhouse
+    keywords: ["engineering", "AI", "ML"]
+
+  - name: Hugging Face
+    url: "https://boards.greenhouse.io/huggingface"
+    type: greenhouse
+    keywords: ["engineering", "ML"]
+
+  # --- 3D / VISUAL COMPUTING ---
+  - name: Chaos Group
+    url: "https://www.chaosgroup.com/careers"
+    type: custom
+    keywords: ["rendering", "engineering", "graphics"]
+
+  - name: Pixar
+    url: "https://jobs.disneycareers.com/pixar"
+    type: custom
+    keywords: ["graphics", "rendering", "R&D"]
+
+  - name: Foundry
+    url: "https://www.foundry.com/about-us/careers"
+    type: custom
+    keywords: ["graphics", "rendering", "engineering"]
+
+  - name: Autodesk
+    url: "https://autodesk.wd1.myworkdayjobs.com/Ext"
+    type: workday
+    keywords: ["graphics", "rendering", "3D", "AI"]
+
+  - name: Adobe
+    url: "https://adobe.wd5.myworkdayjobs.com/external_experienced"
+    type: workday
+    keywords: ["3D", "AI", "graphics", "engineering"]
+
+  # --- DANISH / NORDIC TECH ---
+  - name: Maersk
+    url: "https://www.maersk.com/careers"
+    type: custom
+    keywords: ["technology", "AI", "engineering"]
+
+  - name: Novo Nordisk
+    url: "https://www.novonordisk.com/careers"
+    type: custom
+    keywords: ["AI", "data", "engineering", "digital"]
+
+  - name: Lego Group
+    url: "https://www.lego.com/en-dk/careers"
+    type: custom
+    keywords: ["digital", "3D", "AI", "engineering"]
+
+  - name: Zendesk
+    url: "https://jobs.zendesk.com"
+    type: custom
+    keywords: ["engineering", "AI", "Copenhagen"]
+
+  - name: Pleo
+    url: "https://boards.greenhouse.io/pleo"
+    type: greenhouse
+    keywords: ["engineering", "Copenhagen"]
+
+  - name: Lunar
+    url: "https://careers.lunar.app"
+    type: custom
+    keywords: ["engineering", "AI", "Copenhagen"]
+
+  # --- BIG TECH (EU OFFICES) ---
+  - name: Google
+    url: "https://careers.google.com/jobs/results/"
+    type: custom
+    keywords: ["graphics", "AI", "engineering", "Copenhagen", "London", "Zurich"]
+
+  - name: Apple
+    url: "https://jobs.apple.com"
+    type: custom
+    keywords: ["graphics", "AI", "AR", "VR", "Copenhagen"]
+
+  - name: Meta
+    url: "https://www.metacareers.com/jobs"
+    type: custom
+    keywords: ["graphics", "AI", "AR", "VR", "London", "Zurich"]
+
+  - name: Microsoft
+    url: "https://careers.microsoft.com"
+    type: custom
+    keywords: ["graphics", "AI", "3D", "Copenhagen", "London"]
+
+  # --- JOB BOARDS ---
+  - name: Wellfound (AngelList)
+    url: "https://wellfound.com/jobs"
+    type: wellfound
+    keywords: ["CTO", "VP Engineering", "Head of AI", "graphics"]
+
+  - name: LinkedIn
+    url: "https://www.linkedin.com/jobs/"
+    type: custom
+    keywords: ["graphics engineer", "CTO", "VP engineering", "AI", "Copenhagen"]

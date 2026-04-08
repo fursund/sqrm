@@ -1,0 +1,77 @@
+# Career-Ops Profile Configuration
+# Customized for Jens Fursund
+
+candidate:
+  full_name: "Jens Fursund"
+  email: "jens@fursund.com"
+  phone: ""
+  location: "Copenhagen, Denmark"
+  linkedin: "linkedin.com/in/jensfursund"
+  portfolio_url: ""
+  github: "github.com/fursund"
+  twitter: "https://x.com/fursund"
+
+target_roles:
+  primary:
+    - "VP/Director of Engineering (Graphics/AI)"
+    - "CTO / Technical Co-Founder"
+    - "Head of AI/ML Engineering"
+    - "Principal/Staff Graphics Engineer"
+  archetypes:
+    - name: "CTO / Technical Co-Founder"
+      level: "Executive"
+      fit: "primary"
+    - name: "VP/Director of Engineering"
+      level: "Executive"
+      fit: "primary"
+    - name: "Head of AI/ML"
+      level: "Senior Leadership"
+      fit: "primary"
+    - name: "Principal Graphics Engineer"
+      level: "Staff+"
+      fit: "primary"
+    - name: "AI Platform / Infrastructure Lead"
+      level: "Senior/Staff"
+      fit: "secondary"
+    - name: "3D/XR Technical Lead"
+      level: "Senior/Staff"
+      fit: "secondary"
+
+narrative:
+  headline: "CG x AI founder. Employee #7 at Unity. Former CTO (Pinscreen), VP Engineering (Cylindo/Chaos)."
+  exit_story: "I've spent 19 years at the intersection of computer graphics and AI -- from being employee #7 at Unity, to running R&D at ILM, to leading Pinscreen as CTO, to scaling engineering at Cylindo/Chaos Group. Now building SQRM and looking for the right leadership role where I can apply deep technical expertise in graphics, AI, and real-time rendering at scale."
+  superpowers:
+    - "Deep graphics + AI crossover (raytracing, neural rendering, human digitization)"
+    - "Startup-to-scale experience (Unity #7, CTO, VP Eng)"
+    - "Production-grade systems (ILM VFX, Unity engine, Chaos Group pipeline)"
+    - "Technical due diligence and architecture assessment"
+    - "Cross-functional leadership across R&D, product, and platform"
+  proof_points:
+    - name: "Unity Technologies"
+      url: "https://unity.com"
+      hero_metric: "Employee #7 at what became a $30B+ public company"
+    - name: "Pinscreen CTO"
+      url: "https://pinscreen.com"
+      hero_metric: "Led AI avatar R&D combining CG + ML + CV"
+    - name: "Unity 5.6 Lightmapper"
+      url: ""
+      hero_metric: "Shipped progressive lightmapper used by millions of developers"
+    - name: "Cylindo/Chaos Pipeline"
+      url: "https://www.chaos.com/cylindo"
+      hero_metric: "VP leading 3D e-commerce pipeline engineering"
+    - name: "SQRM 3D Converter"
+      url: ""
+      hero_metric: "100% private Wasm-based 3D model converter"
+
+compensation:
+  target_range: "DKK 900K-1.2M / EUR 120K-160K"
+  currency: "DKK/EUR"
+  minimum: "DKK 750K / EUR 100K"
+  location_flexibility: "Copenhagen preferred. Remote/hybrid for the right role. Open to travel."
+
+location:
+  country: "Denmark"
+  city: "Copenhagen"
+  timezone: "CET (UTC+1)"
+  visa_status: "EU citizen, no sponsorship needed"
+  onsite_availability: "Full-time in Copenhagen, periodic travel for remote roles"
